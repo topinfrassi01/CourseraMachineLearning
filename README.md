@@ -1,5 +1,15 @@
 # CourseraMachineLearning
 
+## Supervised learning vs. Unsupervised learning
+
+Supervised learning is split in 2 sections : Discrete problems and classification problems.
+
+**Discrete problem :** Trying to predict a discrete structure as a number. ex : predicting the number of points a hockey player will have in a season.
+
+**Classification problem :** Trying to predict wether a certain input is part of X class. ex : Is an email a spam or not.
+
+Unsupervised learning is yet kind of unknown :p
+
 ## Types of learning algorithm
 
 - Linear regression
