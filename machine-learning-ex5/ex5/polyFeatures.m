@@ -7,6 +7,7 @@ function [X_poly] = polyFeatures(X, p)
 
 
 % You need to return the following variables correctly.
+m = size(X, 1);
 X_poly = zeros(numel(X), p);
 
 % ====================== YOUR CODE HERE ======================
@@ -15,10 +16,9 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
-
-
-
-
+for i = 1:p
+    X_poly(1:m,i) = X.^i;
+end
 
 % =========================================================================
 
